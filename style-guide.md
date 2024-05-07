@@ -36,6 +36,7 @@ circle color
 - Pale blue: hsl(221, 100%, 96%)
   h2 color
 - Light lavender: hsl(241, 100%, 89%)
+  right-col color
 - Dark gray blue: hsl(224, 30%, 27%)
 
 ### Notes

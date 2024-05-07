@@ -11,6 +11,12 @@
       sizes="32x32"
       href="./assets/images/favicon-32x32.png"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="results.css" />
 
     <title>Frontend Mentor | Results summary component</title>
@@ -33,24 +39,28 @@
         <h2 class="summary_container">Summary</h2>
         <section class="summary_container">
           <div class="react">
-            <span class="left-col" style="color: hsl(0, 100%, 67%)"
-              ><i></i>Reaction</span
-            ><span class="right-col"> 80 / 100</span>
+            <span class="left-col" id="reactTitle"><i></i>Reaction</span
+            ><span class="right-col">
+              <span class="summaryScore">80</span> / 100</span
+            >
           </div>
           <div class="mem">
-            <span class="left-col" style="color: hsl(39, 100%, 56%)"
-              ><i></i>Memory</span
-            ><span class="right-col"> 92 / 100</span>
+            <span class="left-col" id="memTitle"><i></i>Memory</span
+            ><span class="right-col"
+              ><span class="summaryScore">92</span> / 100</span
+            >
           </div>
           <div class="verb">
-            <span class="left-col" style="color: hsl(166, 100%, 37%)"
-              ><i></i>Verbal</span
-            ><span class="right-col"> 61 / 100</span>
+            <span class="left-col" id="verbTitle"><i></i>Verbal</span
+            ><span class="right-col"
+              ><span class="summaryScore">61</span> / 100</span
+            >
           </div>
           <div class="vis">
-            <span class="left-col" style="color: hsl(234, 85%, 45%)"
-              ><i></i>Visual</span
-            ><span class="right-col"> 72 / 100</span>
+            <span class="left-col" id="visTitle"><i></i>Visual</span
+            ><span class="right-col"
+              ><span class="summaryScore">72</span> / 100</span
+            >
           </div>
         </section>
         <button class="summary_container">Continue</button>

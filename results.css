@@ -3,24 +3,23 @@
 }
 
 body {
-    /*
-    background-color: aqua;
-    */
-    background-color: hsl(0, 0%, 100%);
+    
+    background: #ECF2FF;
     
 }
 
 
 main {
-    /*
-    background-color: bisque;
-    */
+    
+    background: #ECF2FF;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    
     min-height: 100vh;
     min-width: 720px;
+    
 }
 .result {
     background-color:hsl(252, 100%, 67%);
@@ -29,6 +28,7 @@ main {
     z-index: 1;
     padding: 20px;
     max-width: 345px;
+    
 }
 .summary {
     background-color: hsl(0, 0%, 100%);
@@ -103,12 +103,16 @@ section {
 }
 section > div {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 10px;
     margin: 5px 0;
     line-height: 30px;
     border-radius: 10px;
+}
+img, .left-col {
+    display: inline-flex;
+    margin-right: 5px;
 }
 .react {
     background-color: hsla(0, 100%, 67%, 0.1);
@@ -156,6 +160,7 @@ section > div {
     border-radius: 30px;
     font-size: 18px;
     font-weight: 700;
+    position: relative;
 }
 .summary button:hover {
     background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0.5));
@@ -164,16 +169,68 @@ section > div {
 
 @media screen and (max-width:800px) {
     main {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }  
-
+        display: block;
+        min-width: 0;
+    }
+    .result {
+        display: block;
+        max-width: 500px;
+        margin-left: -10px;
+  margin-right: -10px;
+  margin-top: -10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+    }
     .summary {
-        margin-left: 0;
+       margin-left: -10px;
+       margin-right: -10px;
+       margin-top: -20px;
+       padding-bottom: 200px;
+       padding-left: 30px;
+       padding-right: 30px;
     }
 
+    .summary h2 {
+        padding-top: 20px;
+    }
+    section > div {
+        margin: 10px 10px 10px 0;
+    }
+    .summary button {
+        padding: 20px 110px;
+    }
+    /*
+    main {
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+    }  
+    .result {
+        text-align: center;
+        max-width: 1000px;
+        padding: 0 225px;
+        
+        
+    }
+    
+    .summary {
+        display: block;
+        max-width: 1000px;
+        
+        padding: 0 225px;
+        
+    }
+    
+    .summary .left-col {
+        margin-right: 400px;
+    }
+*/
+}
+@media screen and (max-width: 756px) {
+.result {
+
+}
+    
 }
 
 

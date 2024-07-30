@@ -30,12 +30,11 @@
         <header class="col-lg-6">
           <h4>Your Result</h4>
           <div class="score">
-            <div class="num">76 <span>of 100</span></div>
+            <div class="num" id="result"></div>
+            <span id="total">of 100</span>
           </div>
-          <h2>Great</h2>
-          <p>
-            You scored higher than 65% of the people who have taken these tests.
-          </p>
+          <h2 id="scoreHead"></h2>
+          <p id="scoreDesc"></p>
         </header>
         <section class="col-lg-6">
           <h4>Summary</h4>
@@ -47,7 +46,7 @@
                   alt="React Logo"
                 />Reaction</span
               ><span class="right-col">
-                <span class="summaryScore">80</span> / 100</span
+                <span class="summaryScore"></span> / 100</span
               >
             </div>
             <div class="mem">
@@ -57,7 +56,7 @@
                   alt="Memory Logo"
                 />Memory</span
               ><span class="right-col"
-                ><span class="summaryScore">92</span> / 100</span
+                ><span class="summaryScore"></span> / 100</span
               >
             </div>
             <div class="verb">
@@ -67,7 +66,7 @@
                   alt="Verb Logo"
                 />Verbal</span
               ><span class="right-col"
-                ><span class="summaryScore">61</span> / 100</span
+                ><span class="summaryScore"></span> / 100</span
               >
             </div>
             <div class="vis">
@@ -77,24 +76,19 @@
                   alt="Visual Logo"
                 />Visual</span
               ><span class="right-col"
-                ><span class="summaryScore">72</span> / 100</span
+                ><span class="summaryScore"></span> / 100</span
               >
             </div>
           </article>
-          <script>
-            function myFunction() {
-              const scoreNum = document.getElementsByClassName("summaryScore");
-              document.getElementById("demo").innerHTML = scoreNum.length;
-            }
-          </script>
           <div class="d-grid">
-            <button class="btn btn-primary btn-block" onclick="myFunction()">
+            <button class="btn btn-primary btn-block" id="continueButton">
               Continue
             </button>
           </div>
         </section>
       </div>
     </main>
+    <script src="./results-script.js"></script>
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
@@ -104,6 +98,5 @@
         >Jonah Rivera</a
       >.
     </div>
-    <p id="demo" style="color: black">Hi</p>
   </body>
 </html>

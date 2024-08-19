@@ -33,7 +33,7 @@ Users should be able to:
 ![Mobile Hover States Results](./screenshots%20and%20videos/mobile_hover_states.mkv)
 <video width="600" controls>
 
-  <source src="./screenshots%20and%20videos/mobile_hover_states.mkv" type="video/mp4">
+  <source src="./screenshots and videos/desktop_hover.gif" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 ![Desktop Hover Results](./screenshots%20and%20videos/desktop_hover_states.mkv)

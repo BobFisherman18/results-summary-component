@@ -30,10 +30,10 @@ Users should be able to:
 
 ![Mobile Results](./screenshots%20and%20videos/mobile_results_summary.png)
 ![Desktop Results](./screenshots%20and%20videos/desktop_results_summary.png)
-![Mobile Hover States Results](./screenshots%20and%20videos/desktop_hover.gif)
-![Desktop Hover Results](./screenshots%20and%20videos/desktop_hover_states.mkv)
-![Mobile Results Bonus](./screenshots%20and%20videos/mobile_results_bonus.mkv)
-![Desktop Results Bonus](./screenshots%20and%20videos/desktop_results_bonus.mkv)
+![Mobile Hover States Results](./screenshots%20and%20videos/mobile_hover_state.gif)
+![Desktop Hover Results](./screenshots%20and%20videos/desktop_hover.gif)
+![Mobile Results Bonus](./screenshots%20and%20videos/mobile_results_bonus.gif)
+![Desktop Results Bonus](./screenshots%20and%20videos/desktop_results_bonus.gif)
 
 ### Links
 
